@@ -20,13 +20,13 @@ body {
 
 #search-container {
   width: 50%;
-  background: rgba(0, 0, 0, 0.7); /* Slightly transparent black */
+  background: rgba(0, 0, 0, 0.7);
   color: #ffffff;
   padding: 20px;
-  margin: 30px auto; /* Added margin for better spacing */
+  margin: 30px auto;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-  border: 1px solid rgba(255, 255, 255, 0.2); /* Soft border to match theme */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 input[type="text"] {
@@ -64,26 +64,24 @@ button:hover {
               rgba(200, 200, 200, 0.4) 75%, 
               rgba(255, 255, 255, 0.2) 100%);
   color: #fff;
-  padding: 20px 10px; /* Reduced padding */
+  padding: 10px; 
   text-align: center;
   border-top: none;
-  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   width: 100%;
-  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow above */
-  z-index: 10;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .footer p {
-  margin: 5px 0; /* Adjusted margin */
-  font-size: 14px; /* Slightly smaller font size */
+  margin: 5px 0;
+  font-size: 14px;
 }
 
 .footer img {
-  height: 40px; /* Reduced image height */
-  margin: 0 5px; /* Adjusted margin */
+  height: 40px;
+  margin: 0 5px;
   vertical-align: middle;
 }
 
@@ -92,9 +90,24 @@ button:hover {
   transition: transform 0.3s ease-in-out;
 }
 
-.footer div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px; /* Adjusted gap */
+.content {
+  text-align: center;
+  margin: 20px auto;
+  padding-bottom: 20px;
+}
+
+.content h2 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.content p {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.content img {
+  max-width: 200px;
+  height: auto;
+  margin-top: 15px;
 }

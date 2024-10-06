@@ -8,14 +8,14 @@
     <link rel="icon" type="image/png" href="Images/tittle_img.png">
 </head>
 <body>
-    <script src="MovieApp.js"></script>
     <div id="search-container">
-        <form>
+        <form onsubmit="search(event)">
             <label for="movie-name">Movie Name:</label>
-            <input type="text" id="-nammoviee" name="movie-name">
-            <button id="seacrhbtn" type="submit" onclick="search()">Search</button>
+            <input type="text" id="movie-name" name="movie-name" required>
+            <button id="searchbtn" type="submit">Search</button>
         </form>
     </div>
+    <div class="content" id="content"></div>
     <div class="footer">
         <p>Movie Finder</p>
         <p>Powered by @Savindu</p>
@@ -23,5 +23,6 @@
         <img src="Images/css_img.jpg" alt="">
         <img src="Images/js_img.png" alt="">
     </div>
+    <script src="MovieApp.js"></script>
 </body>
 </html>
